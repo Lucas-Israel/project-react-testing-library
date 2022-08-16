@@ -12,6 +12,14 @@ describe('Teste o componente <About.js />', () => {
     expect(aboutH2Title).toBeInTheDocument();
   });
 
+  it('Existem 2 <p> na página', () => {
+    renderWithRouter(<About />);
+    const paragraph1 = screen.getByText(/This application simulates a Pokédex/i);
+    const paragraph2 = screen.getByText(/One can filter Pokémons by type/i);
+    expect(paragraph1).toBeInTheDocument();
+    expect(paragraph2).toBeInTheDocument();
+  });
+
   it('O atributo src da imagem está correto ', () => {
     renderWithRouter(<About />);
     const imgAltText = screen.getByAltText('Pokédex');
