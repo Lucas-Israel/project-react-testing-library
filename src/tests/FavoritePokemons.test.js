@@ -23,6 +23,8 @@ describe('Teste o componente <FavoritePokemons.js />', () => {
     userEvent.click(moreDetailsBtn);
     const addToFavBtn = screen.getByRole('checkbox', { id: /favorite/i });
     userEvent.click(addToFavBtn);
+    userEvent.click(addToFavBtn);
+    userEvent.click(addToFavBtn);
     const favBtn = screen.getByRole('link', { name: /Favorite Pokémons/i });
     userEvent.click(favBtn);
     const favH2Title = screen.getByRole('heading', { level: 2,
