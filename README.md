@@ -6,10 +6,10 @@
   ```
   1. Desenvolver testes para uma aplicação React utilizando Jest e a biblioteca React Testing Library
   2. Desenvolver a capacidade de:
-    2.1 Utilizar os seletores (queries) da React-Testing-Library em testes automatizados;
-    2.2 Simular eventos com a React-Testing-Library em testes automatizados;
-    2.3 Testar fluxos lógicos assíncronos com a React-Testing-Library;
-    2.4 Escrever testes que permitam a refatoração da estrutura dos componentes da aplicação sem necessidade de serem alterados;
+    2.1 Utilizar os seletores (queries) da React-Testing-Library em testes automatizados.
+    2.2 Simular eventos com a React-Testing-Library em testes automatizados.
+    2.3 Testar fluxos lógicos assíncronos com a React-Testing-Library.
+    2.4 Escrever testes que permitam a refatoração da estrutura dos componentes da aplicação sem necessidade de serem alterados.
     2.5 Testar inputs.
 
   ```
